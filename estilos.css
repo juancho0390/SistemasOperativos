@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navegacion
+{
+    width: 1200px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.navegacion ul
+{
+    list-style: none;
+}
+
+.menu > li
+{
+    position: relative;
+    display: inline-block;
+}
+
+.menu li > a
+{
+    display: block;
+    padding: 15px 60px;
+    color: #353535;
+    font-family: "Arial Narrow";
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.menu li a:hover
+{
+    color: #CE7D35;
+    transition: all 0.5s;
+}
+
+/*Submenus*/
+
+/* submenu_temas*/
+.submenu_temas
+{
+    position: absolute;
+    background-color: #333333;
+    width: 180%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.3s;
+}
+
+.submenu_temas li a
+{
+    display: block
+    padding: 15px;
+    color: #fff;
+    font-family: "Arial Narrow";
+    text-decoration: none;
+
+}
+
+.menu li:hover .submenu_temas
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* submenu_recursos_digitales*/
+.submenu_recursos_digitales
+{
+    position: absolute;
+    background-color: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.3s;
+}
+
+.submenu_recursos_digitales li a
+{
+    display: block
+    padding: 15px;
+    color: #fff;
+    font-family: "Arial Narrow";
+    text-decoration: none;
+
+}
+
+.menu li:hover .submenu_recursos_digitales
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* submenu_aprendizaje*/
+.submenu_aprendizaje
+{
+    position: absolute;
+    background-color: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.3s;
+}
+
+.submenu_aprendizaje li a
+{
+    display: block
+    padding: 15px;
+    color: #fff;
+    font-family: "Arial Narrow";
+    text-decoration: none;
+
+}
+
+.menu li:hover .submenu_aprendizaje
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+/*propiedades aside*/
+
+aside
+{
+    display: inline-block;
+    width: 300px;
+    min-height: 400px;
+    background-color: white;
+    float: right;
+    margin: 30px;
+}
+
+.pie_pagina
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align-last:center ;
+}
+
+.bloque
+{
+    display:block;
+    padding: 20px;
+    position: relative;
+    width: 1000px;
+    background-color: #ffffff;
+    margin: auto;
+    font-family: "Arial Narrow";
+    font-size: xx-large;
+    text-align: justify;
+    z-index: -2;
+
+
+}
+
+/*ESTILOS DE PAGINA INTERFAZ DE USUARIO*/
+
+body
+{
+    background-color: rgb(250, 229, 171);
+}
+
+.home
+{
+    display: block;
+    padding-left: 200px;
+
+}
+
+.referencia
+{
+    display:block;
+    padding: 20px;
+    position: relative;
+    width: 1000px;;
+    margin: auto;
+    font-family: "Times New Roman";
+    font-size: small;
+    text-align: justify;
+    z-index: -2;  
+}
+
+
+
+
+
+
+
